@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<spawnabletypes>	
+	<type name="Glowler_ITV">
+        <attachments chance="1.00">
+            <item name="wheel_Glowler_ITV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="wheel_Glowler_ITV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="wheel_Glowler_ITV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="wheel_Glowler_ITV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarBattery" chance="1.00" />
+        </attachments>
+    </type>
+</spawnabletypes>	

@@ -1,5 +1,32 @@
+#include "$CurrentDir:\\mpmissions\\ExpansionRegular.Namalsk\\expansion\\ExpansionObjectSpawnTools.c"
+#include "$CurrentDir:\\mpmissions\\ExpansionRegular.Namalsk\\expansion\\missions\\MissionConstructor.c"
+
+void SpawnObject( string type, vector position, vector orientation )
+{
+    auto obj = GetGame().CreateObject( type, position );
+    obj.SetPosition( position );
+    obj.SetOrientation( orientation );
+    //Force collision update
+    vector roll = obj.GetOrientation();
+    roll [ 2 ] = roll [ 2 ] - 1;
+    obj.SetOrientation( roll );
+    roll [ 2 ] = roll [ 2 ] + 1;
+    obj.SetOrientation( roll );
+}
+
 void main()
 {
+	bool loadTraderObjects = false;
+	bool loadTraderNPCs = false;
+
+	string MissionWorldName = "empty";
+	GetGame().GetWorldName(MissionWorldName);
+
+	if (MissionWorldName != "empty")
+	{
+		//! Spawn mission objects and traders
+		FindMissionFiles(MissionWorldName, loadTraderObjects, loadTraderNPCs);
+	}
 	/*
 	  [Namalsk] CE init (offline)
 	*/

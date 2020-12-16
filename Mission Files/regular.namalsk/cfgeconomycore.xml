@@ -17,4 +17,40 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="db">
 		<file name="types_dzn.xml" type="types" />
 	</ce>
+	<!-- EXPANSION CENTRAL ECONOMY -->
+	<ce folder="expansion_ce">
+		<file name="expansion_types.xml" type="types" />
+		<file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
+		<file name="expansion_events.xml" type="events" />
+	</ce>
+	<!-- MODDED CENTRAL ECONOMY -->
+	<ce folder="modded_ce">
+		<file name="atv_mung_cfgeventspawns.xml" type="eventspawns" />
+		<file name="atv_mung_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="atv_mung_events.xml" type="events" />
+		<file name="atv_mung_types.xml" type="types" />
+		<file name="cannabisplus_types.xml" type="types" />
+		<file name="cmz_cars_types.xml" type="types" />
+		<file name="devils_dandruff_types.xml" type="types" />
+		<file name="devils_dandruff_events.xml" type="events" />
+		<file name="dingo_truck_cfgeventspawns.xml" type="eventspawns" />
+		<file name="dingo_truck_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="dingo_truck_events.xml" type="events" />
+		<file name="dingo_truck_types.xml" type="types" />
+		<file name="morefood_types.xml" type="types" />
+		<file name="morefood_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="glowler_itv_cfgeventspawns.xml" type="eventspawns" />
+		<file name="glowler_itv_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="glowler_itv_events.xml" type="events" />
+		<file name="glowler_itv_types.xml" type="types" />
+		<file name="gerphelius_zil130_cfgeventspawns.xml" type="eventspawns" />
+		<file name="gerphelius_zil130_cfgspawnabletypes.xml" type="spawnabletypes" />
+		<file name="gerphelius_zil130_events.xml" type="events" />
+		<file name="gerphelius_zil130_types.xml" type="types" />
+	<!--	<file name="animal_pack_types.xml" type="types" />-->
+		<file name="money_ruble_types.xml" type="types" />
+		<file name="gold_nugets_types.xml" type="types" />
+	<!--	<file name="more_wolves_types.xml" type="types" /> -->
+	<!--	<file name="more_wolves_events.xml" type="events" /> -->
+	</ce>
 </economycore>
